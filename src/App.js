@@ -7,6 +7,7 @@ import About from './paginas/About';
 // import Project3 from './paginas/Proj_3';
 // import Project4 from './paginas/Proj_4';
 // import Project5 from './paginas/Proj_5';
+
 import Projetoss from './paginas/Projetos';
 import ScrollToTop from './components/scrollstart';
 
