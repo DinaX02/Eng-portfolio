@@ -17,7 +17,7 @@ The application was developed as part of the Koru Project and is an event tracki
 The focus of the application is the dynamics of voting on the projects shown at the event in question. In other words, this project aims to facilitate the process of creating and managing voting activities on projects within a live event. 
 </p>
 
-<p className="fontsize_tags" style={{marginTop:"2em"}}><span className="title_marcado_koru">Tarefas.</span></p>
+<p className="fontsize_tags" style={{marginTop:"2em"}}><span className="title_marcado_koru">Tasks.</span></p>
 
 <div className="tarefas_boomerang">
         <div className="tags_koru">UX/ UI Design</div>
