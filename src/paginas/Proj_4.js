@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-// import HeroProject4 from "../components/hero_proj4.js";
 import NavbarProjectBoomerang from "../components/Navbar_projectBoomerang.js";
 import ContentP4 from "../components/content_proj4.js";
 import InfoProj4 from "../components/infoProj4.js";
@@ -16,7 +15,6 @@ const Project_4 = ()=> {
     return(
         <div>
            <NavbarProjectBoomerang/> 
-           {/* <HeroProject4/> */}
            <ContentP4/>
             <InfoProj4/>
           <InfoProj42/>
