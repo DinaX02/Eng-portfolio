@@ -8,6 +8,7 @@ import PersonaToCare from "../assets/PersonaToCare.jpg";
 import InsightsToCare from "../assets/Insights.png";
 import UserJourneyMapToCare from "../assets/User Journey Map_tocare.png";
 import UserFlowToCare from "../assets/User Flow_tocare.png";
+import MatrizPriority from "../assets/matriz_prioridade.svg";
 // import RequisitosToCare from "../assets/requesitos_tocare.png";
 // import SolutionToCare from "../assets/solucao_tocare.png";
 // import InovationToCare from "../assets/inovacao_tocare.png";
@@ -116,13 +117,13 @@ const InfoProj5_DesignProcess = () => {
             User Flow 
           </TabButton>
 
-          {/* <TabButton
-            onClick={() => handleTabClick("solucao")}
-            active={activeTab === "solucao"}
+        <TabButton
+            onClick={() => handleTabClick("priomatriz")}
+            active={activeTab === "priomatriz"}
           >
-            Solution 
+            Priority Matrix
           </TabButton>
-
+   {/*
           <TabButton
             onClick={() => handleTabClick("requisitos")}
             active={activeTab === "requisitos"}
@@ -195,15 +196,15 @@ const InfoProj5_DesignProcess = () => {
               onClick={() => openImageView(UserFlowToCare)}
             />
           )}
-            {/* {activeTab === "solucao" && (
+            {activeTab === "priomatriz" && (
             <img
               className="img_diagram"
-              src={SolutionToCare}
-              alt="solucao"
-              onClick={() => openImageView(SolutionToCare)}
+              src={MatrizPriority}
+              alt="priority matriz"
+              onClick={() => openImageView(MatrizPriority)}
             />
           )}
-            {activeTab === "requisitos" && (
+           {/*  {activeTab === "requisitos" && (
             <img
               className="img_diagram"
               src={RequisitosToCare}
