@@ -4,7 +4,7 @@ import EmpathyMap from "../assets/empathy map.png"
 import DiagramDesignProcess from "../assets/design_thinking_grafico_tocare.png";
 import BenchmarkingToCare from "../assets/benchmarking.png";
 import HMWToCare from "../assets/HMWtocare.png";
-import PersonaToCare from "../assets/PersonaToCare.png";
+import PersonaToCare from "../assets/PersonaToCare.jpg";
 import InsightsToCare from "../assets/Insights.png";
 import UserJourneyMapToCare from "../assets/User Journey Map_tocare.png";
 import UserFlowToCare from "../assets/User Flow_tocare.png";

@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from "react";
 import "../App.css";
-import LowFi1 from "../assets/Lofi-protypes1.png";
-import LowFi2 from "../assets/LowFi-prototypes2.png"
+import LowFi1 from "../assets/Lofi-protypes1.jpg";
+import LowFi2 from "../assets/LowFi-prototypes2.jpg"
 import styled from "styled-components";
 
 const InfoProj5Wireframes = () => {

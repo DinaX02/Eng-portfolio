@@ -67,7 +67,7 @@ const ContentP5 = () => {
           >
             <div className="tags_tocare">FigJam</div>
             <div className="tags_tocare">Jira</div>
-            <div className="tags_tocare_big">Papel e Caneta</div>
+            <div className="tags_tocare_big">Paper and pen</div>
             <div className="tags_tocare">Figma</div>
             
           </div>
