@@ -26,7 +26,7 @@ const Skills = () => {
     <div className="skills_div">
       <div className="linhasss_roxos">
         <div style={linhaStyle}>
-          <p style={numeroStyle}>02</p>
+          <p style={numeroStyle}>03</p>
         </div>
       </div>
       <div className="instagram-container">
@@ -131,7 +131,7 @@ const Skills = () => {
                     src={frontendICON}
                     alt="IconFrontEnd"
                   />
-                  <h1 className="skills_title">Desenvolvimento Front-end</h1>
+                  <h1 className="skills_title">Front-end Development</h1>
                   {/* <img className="arrow_ajust" src={arrowDown}/>*/}
                 </div>
                 <div className="skills_list grid">

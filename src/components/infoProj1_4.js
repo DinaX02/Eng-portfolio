@@ -56,7 +56,7 @@ By moving on to medium-fidelity prototypes, the application's functionalities an
 <br></br><br></br>
 Finally, the prototypes were converted from Mid-fi to Hi-fi, thus creating the user flows using Figma.
 </p>
-<a href="https://www.figma.com/proto/XvQjbPsxIYJKLmFfWOfHCg/MID-FI?node-id=739-840&scaling=scale-down&page-id=327%3A2&starting-point-node-id=739%3A840" target="blank" rel="noopener noreferrer"><button className="btn_viewmore">View Prototype</button></a>
+<a href="https://www.figma.com/proto/XvQjbPsxIYJKLmFfWOfHCg/MID-FI?node-id=739-840&scaling=scale-down&page-id=327%3A2&starting-point-node-id=739%3A840" target="blank" rel="noopener noreferrer"><button className="btnInstallManualKoru">View Prototype</button></a>
 
 </div>
 

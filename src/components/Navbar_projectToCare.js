@@ -8,7 +8,7 @@ const NavbarProjectToCare = ()=> {
     return(
         <div className="Navbar_projectToCare">
             <span className="nav-logo">
-            <strong><Link to={"/"}>Dinis Antunes</Link></strong>
+            <Link to={"/"}>Dinis Antunes</Link>
             </span>
             <div className={`nav-items ${isOpen && "open"}`}>
             <Link to={"/projectsss"}>Projects </Link>

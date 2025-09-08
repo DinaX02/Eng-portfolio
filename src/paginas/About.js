@@ -1,6 +1,7 @@
 import React from "react";
 import NavbarAbout from "../components/Navbar_about";
 import Skills from "../components/Skills";
+import PercursoAcademico from "../components/PercursoAcademico";
 import "../App.css";
 import Contactos from "../components/Contactos";
 import HeroAbout from "../components/heroAbout";
@@ -12,7 +13,7 @@ const About = () => {
       <NavbarAbout/>
       <HeroAbout/>
       <Origens/>
-   {/* <PercursoAcademico /> */}
+   <PercursoAcademico />
       <Skills />
       <Contactos />
     </div>
