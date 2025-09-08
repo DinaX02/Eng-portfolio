@@ -62,7 +62,7 @@ max-width: 600px;
 
 .btnInstallManualKoru{
 
-  background-color: #343541;
+  background-color:rgb(28, 28, 28);
   font-family: 'Poppins', sans-serif;
   color: rgba(189, 139, 255, 0.9);
   border-radius: 10px;
@@ -74,8 +74,70 @@ max-width: 600px;
 }
 
 .btnInstallManualKoru:hover {
-  background-color: #59595c;
+  background-color: #343435;
 }
+
+.tituloEtapasAcademicas{
+color:rgba(151, 71, 255, 0.8);
+font-size: 20px;
+font-weight: 600;
+}
+
+.paragrafo_percurso{
+ margin-top:20px; 
+ font-size: 19px;
+ width: 95%;
+}
+
+.tags_uxtoolkit{
+    background-color: #343541;
+  /* background-color: #2EA7BA;
+  color: #EAE8DB; */
+  color: #E2AE75;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  border-radius: 25px;
+  max-width: 150px;
+  margin-right: 0.7em;
+  margin-bottom: 0.7em;
+} 
+
+.tags_uxtoolkit_big{
+  background-color: #343541;
+  /* background-color: #2EA7BA;
+  color: #EAE8DB; */
+  color: #E2AE75;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  border-radius: 25px;
+  max-width: 250px;
+  margin-right: 0.7em;
+  margin-bottom: 0.7em;
+}
+
+.text_marcado_uxtoolkit{
+  background-color: rgba(202, 144, 80, 0.8);
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  line-height: 0.10;
+  padding-right: 0.4em;
+  padding-bottom: 0.6em;
+}
+
+.title_uxtoolkit_hero{
+  font-size: 7vw;
+  color: #CA9050;
+  /* color: transparent; */ 
+  /* -webkit-text-stroke: 1px #000; */
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
 
 /* //////////// NavBar //////////// */
 .Navbar {
@@ -140,6 +202,19 @@ max-width: 600px;
   position: relative;
   border-bottom: 5px solid #0097B2;
 }
+
+.Navbar_projectUXToolkit{
+  height: 90px;
+  display: flex;
+  overflow: hidden !important;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2em;
+  margin-left: 20px;
+  position: relative;
+  border-bottom: 5px solid #CA9050;
+}
+
 
 .title-with-marker_4{
 padding-left: 80px;
@@ -246,6 +321,13 @@ a {
   color: #2e2e2e;
 }
 
+.Navbar_projectUXToolkit > .nav-logo {
+  font-weight: 700;
+  font-size: 21px;
+  /*margin: 15px;*/
+  color: #2e2e2e;
+}
+
 .Navbar > .nav-items > a {
   color: #2e2e2e;
   font-size: 16px;
@@ -292,6 +374,14 @@ a {
   opacity: 0.9;
 }
 
+.Navbar_projectUXToolkit > .nav-items > a {
+  color: #2e2e2e;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 15px;
+  position: relative;
+  opacity: 0.9;
+}
 
 
 .Navbar > .nav-items > a:hover {
@@ -314,6 +404,9 @@ a {
   opacity: 1;
 }
 
+.Navbar_projectUXToolkit > .nav-items > a:hover {
+  opacity: 1;
+}
 
 
 .Navbar > .nav-items > a::before {
@@ -371,6 +464,16 @@ a {
   transition: all 0.45s;
 }
 
+.Navbar_projectUXToolkit > .nav-items > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2e2e2e;
+  transition: all 0.45s;
+}
 
 .ola {
   margin-right: 2em;
@@ -396,6 +499,9 @@ a {
   width: 100%;
 }
 
+.Navbar_projectUXToolkit > .nav-items > a:hover::before {
+  width: 100%;
+}
 
 .Navbar > .nav-toggle {
   display: none;
@@ -414,6 +520,10 @@ a {
 }
 
 .Navbar_projectToCare > .nav-toggle {
+  display: none;
+}
+
+.Navbar_projectUXToolkit > .nav-toggle {
   display: none;
 }
 
@@ -488,6 +598,11 @@ justify-content: flex-start;
   }
 
   .Navbar_projectToCare {
+    position: static;
+    justify-content: space-between;
+  }
+
+    .Navbar_projectUXToolkit {
     position: static;
     justify-content: space-between;
   }
@@ -592,6 +707,25 @@ justify-content: flex-start;
     padding-top: 3em;
   }
 
+    .Navbar_projectUXToolkit > .nav-items {
+    background-image: url("./assets/textura-blanca\ 2.jpg");
+    border-top: 5px solid  #CA9050;
+    overflow: hidden !important;
+    position: absolute;
+    top: 90px;
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    left: 0;
+    width: 100%;
+    /*text-align: right; para --> menu direita*/
+    height: calc(100vh - 90px);
+    transform: translateX(-100%);
+    transition: all 0.45s;
+    z-index: 5;
+    padding-top: 3em;
+  }
+
   .Navbar > .nav-items > a {
     margin-left: 36px;
   }
@@ -609,6 +743,10 @@ justify-content: flex-start;
   }
 
   .Navbar_projectToCare > .nav-items > a {
+    margin-left: 36px;
+  }
+
+      .Navbar_projectUXToolkit > .nav-items > a {
     margin-left: 36px;
   }
 
@@ -632,6 +770,10 @@ justify-content: flex-start;
     background: transparent;
   }
 
+      .Navbar_projectUXToolkit > .nav-items > a::before {
+    background: transparent;
+  }
+
   .Navbar > .nav-items.open {
     transform: translateX(0);
   }
@@ -651,6 +793,11 @@ justify-content: flex-start;
   .Navbar_projectToCare > .nav-items.open {
     transform: translateX(0);
   }
+
+    .Navbar_projectUXToolkit > .nav-items.open {
+    transform: translateX(0);
+  }
+  
 
   .Navbar > .nav-toggle {
     display: flex;
@@ -693,6 +840,16 @@ justify-content: flex-start;
   }
 
   .Navbar_projectToCare > .nav-toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 0.4em;
+  }
+
+    .Navbar_projectUXToolkit > .nav-toggle {
     display: flex;
     width: 50px;
     height: 50px;
@@ -948,6 +1105,13 @@ padding-top: 1em;
   min-height: 100vh;
 }
 
+.info_uxtoolkit{
+  background-image: url("./assets/textura_fixed.jpg");
+  padding-top: 3em;
+  border-top: 3px solid #CA9050;
+  min-height: 100vh;
+}
+
 .info_p5{
   background-image: url("./assets/textura_fixed.jpg");
   padding-top: 2.3em;
@@ -1054,13 +1218,22 @@ padding-top: 1em;
 
 
 
+.info_p6{
+  background-image: url("./assets/textura_fixed.jpg");
+  padding-top: 2.3em;
+  border-top: 3px solid #CA9050;
+  min-height: 100vh;
+}
 
+.links_uxtoolkit{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-
-
-
-
-
+.links_uxtoolkit > a:hover{
+color: #CA9050 !important;
+}
 
 .div_content_p1{
   background-image: url("./assets/textura-blanca\ 2.jpg");
@@ -1284,6 +1457,10 @@ font-size: 6vw;
     font-size: 6vw;
       }
 
+ .title_uxtoolkit_hero{
+    font-size: 6vw;
+      }
+
   .title_koru_hero{
     font-size: 6vw;
       }
@@ -1297,6 +1474,11 @@ font-size: 6vw;
     }
   
     .title_tocare_hero{
+      font-size: 5vw;
+        }
+
+        
+        .title_uxtoolkit_hero{
       font-size: 5vw;
         }
   
@@ -1316,6 +1498,10 @@ font-size: 6vw;
         font-size: 4.5vw;
           }
     
+                    .title_uxtoolkit_hero{
+        font-size: 4.5vw;
+          }
+
       .title_koru_hero{
         font-size: 4.5vw;
           }
@@ -1398,6 +1584,19 @@ font-size: 6vw;
   padding-bottom: 0.6em;
   font-size: 19px;
 }
+
+.title_marcado_uxtoolkit{
+  background-color: rgba(202, 144, 80, 0.8);
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  line-height: 0.10;
+  padding-right: 0.4em;
+  padding-bottom: 0.6em;
+  font-size: -webkit-xxx-large;
+}
+
+
 
 .hero h1{
   font-weight: 900;
@@ -1872,8 +2071,8 @@ width: 60%;
 
 
   .cor_nome{
-    color: rgb(122 40 230);
- 
+    /* color: rgb(122 40 230); */
+ color: rgb(151, 71, 255);
   }
 
   .cor_nome_about{
@@ -2073,6 +2272,12 @@ margin-bottom: 0.25rem;
   /* padding-top: 4em; */
 }
 
+.space_contacto_uxtoolkit{
+  background-image: url("./assets/textura-blanca\ 2.jpg");
+  border-top: 3px solid #CA9050;
+  /* padding-top: 4em; */
+}
+
 .icons_contactos{
   display: flex;
   flex-direction: column !important;
@@ -2205,6 +2410,11 @@ font-size: 12px;
   }
 
   .title_marcado_tocare{
+    line-height: 0.8;
+    padding-bottom: 0.4em;
+    font-size: xx-large;
+  }
+    .title_marcado_uxtoolkit{
     line-height: 0.8;
     padding-bottom: 0.4em;
     font-size: xx-large;
