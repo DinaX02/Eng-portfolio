@@ -26,7 +26,7 @@ The results show that the UX Toolkit not only consolidates UX best practices, bu
         <div className="tags_uxtoolkit">Front-end</div>
         </div>  
 
-        <div className="links_uxtoolkit" style={{paddingRight:20}}><h3>Link:</h3><a href="https://uxtoolkit.netlify.app/" target="blank"><p style={{marginLeft:10}}>Plataforma Digital | UX Toolkit</p></a></div> 
+        <div className="links_uxtoolkit" style={{paddingRight:20}}><h3>Link:</h3><a href="https://uxtoolkit.netlify.app/" target="blank"><p style={{marginLeft:10}}>Digital Plataform | UX Toolkit</p></a></div> 
 </div>
 
 
