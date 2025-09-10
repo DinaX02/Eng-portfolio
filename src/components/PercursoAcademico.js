@@ -82,7 +82,7 @@ const PercursoAcademico = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Plano Curricular
+        Study plan
       </ButtonPlanoCurricular>
       <Separator />
  <Averages>
@@ -99,7 +99,7 @@ const PercursoAcademico = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Plano Curricular
+        Study plan
       </ButtonPlanoCurricular>
             <Separator />
  <Averages>
